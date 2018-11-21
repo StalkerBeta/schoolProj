@@ -1,0 +1,90 @@
+object Form1: TForm1
+  Left = 277
+  Height = 203
+  Top = 121
+  Width = 213
+  Caption = 'Form1'
+  ClientHeight = 203
+  ClientWidth = 213
+  LCLVersion = '1.8.4.0'
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 21
+    Top = 96
+    Width = 65
+    Caption = 'сумма'
+    Checked = True
+    TabOrder = 6
+    TabStop = True
+  end
+  object RadioButton2: TRadioButton
+    Left = 8
+    Height = 21
+    Top = 134
+    Width = 94
+    Caption = 'вычитание'
+    TabOrder = 0
+  end
+  object RadioButton3: TRadioButton
+    Left = 8
+    Height = 21
+    Top = 173
+    Width = 116
+    Caption = 'произведение'
+    TabOrder = 1
+  end
+  object Edit1: TEdit
+    Left = 10
+    Height = 23
+    Top = 24
+    Width = 80
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 10
+    Height = 23
+    Top = 64
+    Width = 80
+    TabOrder = 3
+  end
+  object Edit3: TEdit
+    Left = 128
+    Height = 23
+    Top = 132
+    Width = 79
+    TabOrder = 4
+  end
+  object Button1: TButton
+    Left = 128
+    Height = 26
+    Top = 168
+    Width = 79
+    Caption = 'рассчитать'
+    OnClick = Button1Click
+    TabOrder = 5
+  end
+  object Label1: TLabel
+    Left = 10
+    Height = 15
+    Top = 8
+    Width = 48
+    Caption = '1 число'
+    ParentColor = False
+  end
+  object Label2: TLabel
+    Left = 10
+    Height = 15
+    Top = 48
+    Width = 48
+    Caption = '2 число'
+    ParentColor = False
+  end
+  object Label3: TLabel
+    Left = 128
+    Height = 15
+    Top = 112
+    Width = 40
+    Caption = 'вывод'
+    ParentColor = False
+  end
+end
