@@ -8,3 +8,4 @@
  Проекты:
   - calculatorRadioButton
   - calculatorCheckBox
+  - repeatedNumbers
