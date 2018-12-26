@@ -1,4 +1,4 @@
-# schoolProj!
+# schoolProj
 
 Репозиторий был создан для того чтобы:
  - отравлять не скомпилированные проекты
@@ -9,3 +9,5 @@
   - calculatorRadioButton
   - calculatorCheckBox
   - repeatedNumbers
+  - worker'sSalary
+  - plusToZero
